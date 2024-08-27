@@ -1,0 +1,61 @@
+# one time use 
+
+git config --global user.email "nikky06184@gmail.com"  
+
+
+git config --global user.name "Nikky06184"  
+
+git config --global user.password "Rakeshkumar06184"  
+
+
+#####################################################################################################
+# always use 
+
+git init .
+git add .
+git commit -m "code comit by nikky "
+git branch -M main
+
+git push -u origin main    or   git push -u origin master
+
+git rmote -v
+
+git status
+#############################################################################################################################
+create respositer in two ways 1) local respositoory and 2) server repo
+
+Local to server connect by terminal or tool (local repo to server repo )# getting error due to some creditialtion 
+
+server to local connect by terminal or tool (sever repo to local repo )
+
+
+1)create repo in github server # once , if repo is already exist, do not create
+2)open terimanal and go particular path documnent by command (Ex: python code  or all project file)
+3) push code local(laptop) to server(github) from terminal (run point 4 or 5 )
+
+
+4) note :  if githubrepo is created new just now, only 1 time run all git command from take or copy github server (means server repo code pull to local repo) else run point 5 below
+
+5)note :  if github repo is already exist,  2nd commit run  and push code below command and do not consider point 4
+ 
+git add .
+git commit -m "code commit friday(2/feb/2023) time by nikky "
+git push -u origin main
+
+
+###################################################
+
+
+1 ) how to install and uninstall python libary
+
+pip install pandas 
+pip uninsatl pandas
+
+
+2) how to check the python package  intalled or not .
+
+pip freeze
+
+
+
+
